@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/wedding-seating-plan/static/css/main.83a49013.css",
-    "main.js": "/wedding-seating-plan/static/js/main.2e7c1374.js",
+    "main.css": "/wedding-seating-plan/static/css/main.e2ea7e05.css",
+    "main.js": "/wedding-seating-plan/static/js/main.566d9ee6.js",
     "static/js/453.def4d271.chunk.js": "/wedding-seating-plan/static/js/453.def4d271.chunk.js",
-    "static/media/logo.png": "/wedding-seating-plan/static/media/logo.54809e91a661a27bf488.png",
+    "static/media/logo.png": "/wedding-seating-plan/static/media/logo.830bcee363c68ee0dc94.png",
     "index.html": "/wedding-seating-plan/index.html",
-    "main.83a49013.css.map": "/wedding-seating-plan/static/css/main.83a49013.css.map",
-    "main.2e7c1374.js.map": "/wedding-seating-plan/static/js/main.2e7c1374.js.map",
+    "main.e2ea7e05.css.map": "/wedding-seating-plan/static/css/main.e2ea7e05.css.map",
+    "main.566d9ee6.js.map": "/wedding-seating-plan/static/js/main.566d9ee6.js.map",
     "453.def4d271.chunk.js.map": "/wedding-seating-plan/static/js/453.def4d271.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83a49013.css",
-    "static/js/main.2e7c1374.js"
+    "static/css/main.e2ea7e05.css",
+    "static/js/main.566d9ee6.js"
   ]
 }
