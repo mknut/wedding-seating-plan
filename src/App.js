@@ -10,14 +10,14 @@ function App() {
       </header>
 
       <main className='App-main'>
-        <b>
-        Zvedaví, kde budete sedieť?
-        </b>
+        <div className="App-main-highlight">
+        Zvedaví, kde budeš sedieť?
+        </div>
         <div>
-        Zasadací poriadok bude dostupný <b className="App-main-date">16. 10. 2025</b> – deň pred našou svadbou.
+        Zasadací poriadok bude dostupný <span className="App-main-date">16. 10. 2025</span> – deň pred našou svadbou.
         </div>
         <p>
-        Nezabudnite sa sem vrátiť, aby ste zistili, pri kom budete stolovať a kde vás čaká vaše miesto pri stole.
+        Nezabudni sa sem vrátiť, aby si zistil, pri kom budeš stolovať a kde ťa čaká tvoje miesto pri stole.
         </p>
       </main>
     </div>

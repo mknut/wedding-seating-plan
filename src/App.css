@@ -8,16 +8,24 @@
 }
 
 .App-logo {
-  height: 20vmin;
+  height: 35vmin;
   pointer-events: none;
   padding-top: 4rem;
 }
 
 .App-main {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
   padding: 2rem;
 }
 
+.App-main-highlight {
+  font-weight: 400;
+  font-size: larger;
+}
+
+
 .App-main-date {
   white-space: nowrap;
+  font-weight: 400;
 }
