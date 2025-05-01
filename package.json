@@ -1,7 +1,7 @@
 {
   "name": "wedding-seating-plan",
   "version": "0.1.0",
-  "homepage": "https://github.com/mknut/wedding-seating-plan",
+  "homepage": "https://mknut.github.io/wedding-seating-plan/",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
