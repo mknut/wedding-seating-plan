@@ -1,10 +1,12 @@
 .App {
   text-align: center;
   background-color: 	#faf8f6;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   gap: 4rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
 }
 
 .App-logo {
@@ -14,8 +16,6 @@
 }
 
 .App-main {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 100;
   padding: 2rem;
 }
 
@@ -28,4 +28,13 @@
 .App-main-date {
   white-space: nowrap;
   font-weight: 400;
+}
+
+.TableList-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.TableList-item {
+  flex: 50%;
 }
