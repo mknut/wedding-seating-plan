@@ -1,4 +1,3 @@
-import logo from "./logo.png";
 import "./App.css";
 import { TableList } from "./pages/TableList";
 import { TableMap } from "./pages/TableMap";
@@ -21,7 +20,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img
+          src={`${process.env.PUBLIC_URL}/logo.svg`}
+          className="App-logo"
+          alt="logo"
+        />
+        <h2>Zasadací poriadok</h2>
       </header>
 
       <main className="App-main">{visiblePage()}</main>
