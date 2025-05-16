@@ -7,10 +7,11 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   padding: 2rem;
+  gap: 4rem;
 }
 
 .App-logo {
-  height: 15vmin;
+  height: 25vmin;
   pointer-events: none;
 }
 

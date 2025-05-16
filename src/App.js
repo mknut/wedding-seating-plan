@@ -25,7 +25,6 @@ function App() {
           className="App-logo"
           alt="logo"
         />
-        <h2>Zasadací poriadok</h2>
       </header>
 
       <main className="App-main">{visiblePage()}</main>
