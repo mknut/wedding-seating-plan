@@ -14,7 +14,7 @@ function App() {
       case "tableMap":
         return <TableMap />;
       default:
-        return <Placeholder />;
+        return <Placeholder onDateClick={() => setPage("tableList")} />;
     }
   };
   return (
