@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   padding: 2rem;
   gap: 4rem;
 }
@@ -16,13 +16,13 @@
 }
 
 .App-main-highlight {
-  font-weight: 400;
+  font-weight: 500;
   font-size: larger;
 }
 
 .App-main-date {
   white-space: nowrap;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .TableList-item {
