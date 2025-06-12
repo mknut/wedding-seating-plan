@@ -2,6 +2,7 @@ export const Placeholder = ({ onDateClick }) => {
   return (
     <>
       <div className="App-main-highlight">Zvedavý, kde budeš sedieť?</div>
+      <br />
       <div>
         Zasadací poriadok bude dostupný{" "}
         <span className="App-main-date" onClick={onDateClick}>
