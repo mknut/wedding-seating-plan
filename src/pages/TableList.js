@@ -120,7 +120,6 @@ const tableData = [
 
 export const TableList = () => {
   const [inputValue, setInputValue] = useState("");
-  // const [open, setOpen] = useState(false);
   const [selectedTable, setSelectedTable] = useState(null);
 
   return (
@@ -143,7 +142,6 @@ export const TableList = () => {
             {...params}
             placeholder="Meno"
             onClick={() => {
-              // setOpen(false);
               setInputValue("");
               setSelectedTable(null);
             }}
@@ -164,16 +162,11 @@ export const TableList = () => {
         noOptionsText=""
         onInputChange={(event, newInputValue) => {
           setInputValue(newInputValue);
-          // setOpen(!!newInputValue);
         }}
         onChange={(event, value) => {
           setSelectedTable(value);
-          // setOpen(false);
+          event.target.blur();
         }}
-        // open={open}
-        // onOpen={() => {
-        //   if (inputValue) setOpen(true);
-        // }}
         size="small"
         freeSolo
       />
