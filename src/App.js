@@ -1,6 +1,6 @@
 import "./App.css";
 import { TableList } from "./pages/TableList";
-import { TableMap } from "./pages/TableMap";
+// import { TableMap } from "./pages/TableMap";
 import { Placeholder } from "./pages/Placeholder";
 import { useState } from "react";
 
@@ -11,8 +11,8 @@ function App() {
     switch (page) {
       case "tableList":
         return <TableList />;
-      case "tableMap":
-        return <TableMap />;
+      // case "tableMap":
+      //   return <TableMap />;
       default:
         return <Placeholder onDateClick={() => setPage("tableList")} />;
     }

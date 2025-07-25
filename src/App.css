@@ -3,9 +3,9 @@
   background-color: 	#faf8f6;
   background-image: url(../public/eucalyptus-left.png), url(../public/eucalyptus-right.png);
   background-repeat: no-repeat;
-  background-position: 0 70%, right top;
-  background-size: 20% 20%, 20% 20%;
-  min-height: 100vh;
+  background-position: left 75vh, right top;
+  height: 100vh;
+  background-size: 15vw auto, 10vw auto;
   display: flex;
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
@@ -18,11 +18,11 @@
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .App-logo {
-  height: 35vmin;
+  height: 20vh;
   pointer-events: none;
 }
 
