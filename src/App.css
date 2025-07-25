@@ -11,13 +11,13 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   padding: 2rem;
-  gap: 4rem;
 }
 
 .App-main {
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
+  margin-top: 4rem;
   /* height: 100vh; */
 }
 
