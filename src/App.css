@@ -3,9 +3,9 @@
   background-color: 	#faf8f6;
   background-image: url(../public/eucalyptus-left.png), url(../public/eucalyptus-right.png);
   background-repeat: no-repeat;
-  background-position: left 75vh, right top;
+  background-position: left bottom, right top;
   height: 100vh;
-  background-size: 15vw auto, 10vw auto;
+  background-size: auto 35vh, auto 15vh;
   display: flex;
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
@@ -98,9 +98,16 @@ hr {
 }
 
 iframe {
-  height: 30vh
+  height: 30vh;
+  border-radius: 1rem;
+  border: 4px solid #faf8f6;
 }
 
 body {
   overflow: hidden;
+}
+
+.App-main-section {
+  height: 68vh;
+  scroll-snap-align: start;
 }

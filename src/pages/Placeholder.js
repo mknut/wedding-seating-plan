@@ -1,7 +1,7 @@
 export const Placeholder = ({ onDateClick }) => {
   return (
     <>
-      <div style={{ scrollSnapAlign: "start", height: "80vh" }}>
+      <div className="App-main-section">
         <div className="App-main-highlight">Zvedavý, kde budeš sedieť?</div>
         <br />
         <div>
@@ -25,7 +25,7 @@ export const Placeholder = ({ onDateClick }) => {
           <p className="App-main-schedule-arrow">&#9207;</p>
         </div>
       </div>
-      <div style={{ scrollSnapAlign: "start", height: "80vh" }}>
+      <div className="App-main-section">
         <div className="App-main-highlight">Svadobný obrad &#9962;</div>
         <p>&#128337; 14:15</p>
         <hr />
@@ -40,7 +40,7 @@ export const Placeholder = ({ onDateClick }) => {
           title="Kostol sv. Gorazda a spoločníkov"
         />
       </div>
-      <div style={{ scrollSnapAlign: "start", height: "80vh" }}>
+      <div className="App-main-section">
         <div className="App-main-highlight">Svadobná hostina &#129346;</div>
         <p>&#128339; 16:00</p>
         <hr />
