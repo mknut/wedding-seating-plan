@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/wedding-seating-plan/static/css/main.3b69cd66.css",
-    "main.js": "/wedding-seating-plan/static/js/main.f4121fe1.js",
+    "main.css": "/wedding-seating-plan/static/css/main.2355b445.css",
+    "main.js": "/wedding-seating-plan/static/js/main.9ff9830a.js",
     "static/js/453.def4d271.chunk.js": "/wedding-seating-plan/static/js/453.def4d271.chunk.js",
     "index.html": "/wedding-seating-plan/index.html",
-    "main.3b69cd66.css.map": "/wedding-seating-plan/static/css/main.3b69cd66.css.map",
-    "main.f4121fe1.js.map": "/wedding-seating-plan/static/js/main.f4121fe1.js.map",
+    "main.2355b445.css.map": "/wedding-seating-plan/static/css/main.2355b445.css.map",
+    "main.9ff9830a.js.map": "/wedding-seating-plan/static/js/main.9ff9830a.js.map",
     "453.def4d271.chunk.js.map": "/wedding-seating-plan/static/js/453.def4d271.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b69cd66.css",
-    "static/js/main.f4121fe1.js"
+    "static/css/main.2355b445.css",
+    "static/js/main.9ff9830a.js"
   ]
 }
