@@ -21,7 +21,7 @@ const tableData = [
     guests: [
       "Matúš",
       "Renátka",
-      "Zuzka",
+      "Zuzka Chomová",
       "Dia",
       "Patrik",
       "Erika",
@@ -74,14 +74,14 @@ const tableData = [
       "Maja",
       "Metod",
       "Tonka",
-      "Božena",
+      "Krstná Božena",
       "Miro",
     ],
   },
   {
     name: "Stôl 7",
     guests: [
-      "Zuzka",
+      "Zuzka Knutová",
       "Dávid",
       "Miška",
       "Ľubo",
@@ -95,7 +95,15 @@ const tableData = [
   },
   {
     name: "Stôl 8",
-    guests: ["Dedo Rudo", "Rudo", "Janka", "Marika", "Peťo", "Peter", "Renáta"],
+    guests: [
+      "Dedo Rudo",
+      "Rudo",
+      "Janka",
+      "Marika",
+      "Ujo Peťo",
+      "Krstný Peter",
+      "Renáta",
+    ],
   },
   {
     name: "Stôl 9",
@@ -105,7 +113,7 @@ const tableData = [
       "Tatiana",
       "Timotej",
       "Tobias",
-      "Zuzka",
+      "Zuzka Girašková",
       "Martinka",
       "Matúš",
       "Matej",
@@ -115,12 +123,12 @@ const tableData = [
 
   {
     name: "Stôl 10",
-    guests: ["Peťo", "Kika", "Ďuro", "Danka", "Miro", "Andrea"],
+    guests: ["Peťo Onofrej", "Kika", "Ďuro", "Danka", "Miro", "Andrea"],
   },
   {
     name: "Stôl 11",
     guests: [
-      "Zuzka",
+      "Zuzka Mroková",
       "Matej",
       "Kristián",
       "Paťo",
@@ -194,15 +202,16 @@ export const TableList = () => {
             : true
         )
         .map(({ name, guests }) => (
-          <div className="TableList-item">
+          <div className="TableList-item" key={name}>
             <h3>{name}</h3>
             <div className="TableList-item-guests">
-              {guests.map((guest) => (
+              {guests.map((guest, index) => (
                 <p
                   className={
                     guest === selectedTable?.split("|")[0].trim() &&
                     "TableList-item-guest-highlight"
                   }
+                  key={`${name}-${index}`}
                 >
                   {guest}
                 </p>
