@@ -104,7 +104,7 @@ iframe {
 }
 
 body {
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .App-main-section {
