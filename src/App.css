@@ -17,7 +17,7 @@
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
-  margin-top: 4rem;
+  margin: 2rem 0;
   /* height: 100vh; */
 }
 
