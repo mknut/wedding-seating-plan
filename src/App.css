@@ -4,7 +4,7 @@
   background-image: url(../public/eucalyptus-left.png), url(../public/eucalyptus-right.png);
   background-repeat: no-repeat;
   background-position: left bottom, right top;
-  height: 100vh;
+  height: 95vh;
   background-size: auto 35vh, auto 15vh;
   display: flex;
   flex-direction: column;
