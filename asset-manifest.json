@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/wedding-seating-plan/static/css/main.1bd9b09e.css",
-    "main.js": "/wedding-seating-plan/static/js/main.a79c76b7.js",
+    "main.js": "/wedding-seating-plan/static/js/main.cff15100.js",
     "static/js/453.def4d271.chunk.js": "/wedding-seating-plan/static/js/453.def4d271.chunk.js",
     "static/media/eucalyptus-left.png": "/wedding-seating-plan/static/media/eucalyptus-left.c767d9277c4529bb7859.png",
     "static/media/eucalyptus-right.png": "/wedding-seating-plan/static/media/eucalyptus-right.928691caffee9a330ecc.png",
     "index.html": "/wedding-seating-plan/index.html",
     "main.1bd9b09e.css.map": "/wedding-seating-plan/static/css/main.1bd9b09e.css.map",
-    "main.a79c76b7.js.map": "/wedding-seating-plan/static/js/main.a79c76b7.js.map",
+    "main.cff15100.js.map": "/wedding-seating-plan/static/js/main.cff15100.js.map",
     "453.def4d271.chunk.js.map": "/wedding-seating-plan/static/js/453.def4d271.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1bd9b09e.css",
-    "static/js/main.a79c76b7.js"
+    "static/js/main.cff15100.js"
   ]
 }
